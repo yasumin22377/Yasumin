@@ -1,1 +1,85 @@
-﻿
+﻿<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>MY BLOG</b></h1>
+  <p>Welcome to the blog of <span class="w3-tag">YASUMIN</span></p>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="https://scontent.fbkk14-1.fna.fbcdn.net/v/t1.0-9/45593338_2328387637233808_7184502592737640448_o.jpg?_nc_cat=104&_nc_oc=AQncBdaRYJDk_AS1gDS1O-yFHc0bkFDW7Ei1Uy_SCVlPivMUeKapc50c5cKLiOLJHrg&_nc_ht=scontent.fbkk14-1.fna&oh=5edc5fc90ff15ef4a6761d6568f30586&oe=5D97E974" alt="Nature" style="width:100%">
+    <div class="w3-container">
+      <h3><b>YASUMIN TUMNONG</b></h3>
+      <h5>Title description, <span class="w3-opacity">June 6, 2019</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>I'm a fourth-yaer student majoring un Law at Sisaket Rajabhat University</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+         
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  
+<!-- END BLOG ENTRIES -->
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="https://scontent.fbkk14-1.fna.fbcdn.net/v/t1.0-9/55914178_2627486683990567_8214498289337237504_n.jpg?_nc_cat=104&_nc_oc=AQl1O_CuyRl9GzKBKUtaKPEdeCGInkJPnd7dl0_ax3CW07aA_UkLDsBeA73ZV40vzbM&_nc_ht=scontent.fbkk14-1.fna&oh=6cd29e98b620711e7a5e8bb9b1310502&oe=5D801A82" style="width:100%">
+    <div class="w3-container w3-white">
+      <h4><b>My Profile</b></h4>
+      <p>My name is : Yasumin Tumnong</p>
+	  <p>Nickname is : Ao</p>
+	  <p>Birthday : Saturday,1 August </p>
+	  <p>Agr : 21 Year old</p>
+    </div>
+  </div><hr>
+  
+  
+  <hr> 
+ 
+  
+  
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+
+
+</body>
+</html>
